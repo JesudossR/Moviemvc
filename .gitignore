@@ -1,0 +1,74 @@
+# ASP.NET MVC specific
+
+# Ignore the ASP.NET temporary files
+*.dll
+*.exe
+*.pdb
+*.dbmdl
+*.bak
+*.log
+*.suo
+*.user
+*.userosscache
+*.suo
+*.cache
+*.csproj.user
+*.csproj.vspscc
+
+# Ignore NuGet packages
+**/packages/*
+!**/packages/README.md
+!**/packages/*.nuspec
+
+# Ignore ASP.NET Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]eleas[e]/
+[Rr]eleas[e]Public/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Rr][Mm]x86/
+[Aa][Rr][Mm]x64/
+
+# Ignore Visual Studio Code specific
+.vscode/
+
+# Ignore Rider specific
+.idea/
+
+# Ignore build results
+[Bb]uild/
+[Bb]uilds/
+
+# Ignore .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore Azure Web App publishing
+.publishsettings
+# Ignore coverage results
+coverage/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore NuGet v3 packages
+.nuget/
+
+# Ignore local environment settings
+.env
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Ignore Web configuration files
+web.config
+web.config.*
